@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color:white;
+}
+input[type="range"]{
+    min-width:100%;
+}
+span#revelador{
+    font-family: sans-serif;
+    font-size: 32pt;
+}
+input[type="number"]{
+    text-align:right;
+    max-width: 50px;
+}
+div#as12palavras{
+    font-family: monospace;
+}
