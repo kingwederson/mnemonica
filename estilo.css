@@ -15,4 +15,12 @@ input[type="number"]{
 }
 div#as12palavras{
     font-family: monospace;
+    font-size: 21pt;
+}
+td{
+    padding-left:16px;
+    padding-right:16px;
+}
+span#bits{
+    font-size: 22pt;
 }
