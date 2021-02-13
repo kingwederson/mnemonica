@@ -9,6 +9,7 @@
 </head>
 <body onload="mistura();revela()">
     <h1>Lista de Palavras</h1>
+    <p>Disponível em <a href="https://github.com/kingwederson/mnemonica">https://github.com/kingwederson/mnemonica</a></p>
     <input type="range" name="" id="escolhedor" min="0" max="2047" step="1" value="0" onchange="revela()" onclick="revela()">
     <span id="revelador"></span>
     <br>
@@ -88,7 +89,7 @@
                 <td><span class="binario"></span></td>
             </tr>
         </table>
-        <p>A 12<sup>a</sup> palavra será por tentativa e erro. Você terá que tentar no máximo 16 vezes.</p>
+        <p>A 12<sup>a</sup> palavra será por tentativa e erro. Você terá que tentar no máximo 16 vezes, incrementando 1 ou subtraindo 1 da 12<sup>a</sup> palavra.</p>
         <p><span id="mnemonica"></span></p>
         <p><span id="bits"></span></p>
     </div>
